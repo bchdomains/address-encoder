@@ -1,5 +1,5 @@
 {
-  "name": "@ensdomains/address-encoder",
+  "name": "@bchdomains/address-encoder",
   "version": "0.2.16",
   "description": "Encodes and decodes address formats for various cryptocurrencies",
   "source": "src/index.ts",
@@ -13,7 +13,8 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm run test",
     "size": "browserify lib/index.js | wc -c",
-    "test": "jest --config jestconfig.json"
+    "test": "jest --config jestconfig.json",
+    "pub": "yarn build && yarn publish --access public"
   },
   "files": [
     "lib/**/*"
