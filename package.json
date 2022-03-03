@@ -1,5 +1,5 @@
 {
-  "name": "@ensdomains/address-encoder",
+  "name": "@bchdomains/address-encoder",
   "version": "0.2.16",
   "description": "Encodes and decodes address formats for various cryptocurrencies",
   "source": "src/index.ts",
