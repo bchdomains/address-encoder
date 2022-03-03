@@ -13,7 +13,8 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm run test",
     "size": "browserify lib/index.js | wc -c",
-    "test": "jest --config jestconfig.json"
+    "test": "jest --config jestconfig.json",
+    "pub": "yarn build && yarn publish --access public"
   },
   "files": [
     "lib/**/*"
